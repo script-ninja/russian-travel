@@ -1,7 +1,7 @@
 .header__logo {
   display: block;
-  width: 177px;
-  height: 52px;
+  max-width: 177px;
+  max-height: 52px;
 }
 
 .header__logo > img {
