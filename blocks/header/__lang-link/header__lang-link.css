@@ -9,3 +9,10 @@
   color: #fff;
   text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+  .header__lang-link {
+    font-size: calc( (100vw - 320px) / (768 - 320) * (24 - 18) + 18px);
+    line-height: calc( (100vw - 320px) / (768 - 320) * (38 - 40) + 40px);
+  }
+}
