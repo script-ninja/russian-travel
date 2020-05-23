@@ -1,0 +1,27 @@
+.place__website {
+  align-self: end;
+
+  max-width: max-content;
+  max-height: max-content;
+
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.2em;
+  color: #aaa;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    margin-left: calc((100vw - 320px) / (768 - 320) * (0 - 16) + 16px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    display: none;
+  }
+}
