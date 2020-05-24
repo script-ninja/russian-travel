@@ -7,14 +7,14 @@
 .lead {
   margin: 0 auto;
   padding: 56px 0 0;
-  width: calc( (100vw - 1024px) / (1280 - 1024) * (984 - 928) + 928px);
+  width: calc((100vw - 1024px) / (1280 - 1024) * (984 - 928) + 928px);
   max-width: 984px;
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
     padding: 48px 0 0;
-    width: calc( (100vw - 768px) / (1024 - 768) * (928 - 740) + 740px);
+    width: calc((100vw - 768px) / (1024 - 768) * (928 - 740) + 740px);
   }
 }
 

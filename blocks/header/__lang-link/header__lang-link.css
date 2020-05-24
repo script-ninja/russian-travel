@@ -8,6 +8,12 @@
   line-height: 1.6;
   color: #fff;
   text-decoration: none;
+
+  transition: opacity 0.2s ease;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 768px) {

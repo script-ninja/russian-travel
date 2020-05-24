@@ -1,0 +1,24 @@
+.cover__title {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  z-index: 1;
+
+  margin: auto;
+  max-width: 560px;
+
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    width: calc((100vw - 320px) / (768 - 320) * (560 - 254) + 254px);
+    font-size: calc((100vw - 320px) / (768 - 320) * (72 - 32) + 32px);
+    line-height: calc((100vw - 320px) / (768 - 320) * (76 - 35) + 35px);
+  }
+}

@@ -2,6 +2,11 @@
   display: block;
   max-width: 177px;
   max-height: 52px;
+  transition: opacity 0.2s ease;
+}
+
+.header__logo:hover {
+  opacity: 0.8;
 }
 
 .header__logo > img {
