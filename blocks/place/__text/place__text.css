@@ -5,3 +5,9 @@
     padding: 0 calc((100vw - 320px) / (768 - 320) * (0 - 16) + 16px);
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place__text {
+    padding: 0 16px;
+  }
+}

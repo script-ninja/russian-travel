@@ -1,4 +1,4 @@
-<img src="./images/header-logo_dark.svg" width="177" height="52" align="right" alt="Logo">
+<img src="./images/header-logo_dark.svg" width="176" height="52" align="right" alt="Logo">
 
 # [Путешествие по России](https://script-ninja.github.io/russian-travel/index.html)
 
@@ -16,6 +16,21 @@
 - Отзывчивый **responsive** интерфейс
 - Работа с макетом в [Figma](https://www.figma.com)
 - Система контроля версий [git](https://git-scm.com/)
+- **CSS-шлюзы** — [https://habr.com/ru/company/mailru/blog/315196/](https://habr.com/ru/company/mailru/blog/315196/)
+
+#
+
+Для динамической типографики использована следующая формула:
+
+`y = (x - x1) / (x2 - x1) * (y2 - y1) + y1`
+
+где
+- y — искомый размер шрифта при текущем разрешении
+- x — текущая ширина области просмотра
+- x2 и x1 — макс. и мин. ширина области просмотра
+- y2 и y1 — макс. и мин. размер шрифта
+
+Формула намеренно не подверглась сокращениям в целях автоматизации вычислений и для более наглядного представления того, для каких разрешений устанавливается css-шлюз, а также каков диапазон размеров шрифта в пределах этого css-шлюза.
 
 #
 

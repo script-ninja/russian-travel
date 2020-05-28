@@ -1,0 +1,18 @@
+.header__logo-link {
+  display: block;
+  max-width: 176px;
+  max-height: 52px;
+  transition: opacity 0.2s ease;
+}
+
+.header__logo-link:hover {
+  opacity: 0.8;
+}
+
+
+@media screen and (max-width: 768px) {
+  .header__logo-link {
+    max-width: calc((100vw - 320px) / (768 - 320) * (177 - 142) + 142px);
+    max-height: calc((100vw - 320px) / (768 - 320) * (52 - 42) + 42px);
+  }
+}

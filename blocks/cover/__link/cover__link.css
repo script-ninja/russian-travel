@@ -1,13 +1,17 @@
 .cover__link {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: max-content;
+  grid-template-rows: min-content min-content;
+  justify-items: center;
+  align-items: center;
 
-  background-color: #2A2C2F;
+  background-color: rgba(42, 44, 47, 0.3);
 
   text-decoration: none;
+
+  transition: background-color 0.2s ease;
 }
 
-.cover__link:hover .cover__background {
-  opacity: 0.2;
+.cover__link:hover {
+  background-color: rgba(42, 44, 47, 0.8);
 }
