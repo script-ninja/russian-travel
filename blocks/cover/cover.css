@@ -18,3 +18,15 @@
     padding: 92px 0 0;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .cover {
+    padding: 88px 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    padding: 64px 0 0;
+  }
+}
