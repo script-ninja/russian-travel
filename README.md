@@ -1,6 +1,4 @@
-<img src="./images/header-logo_dark.svg" width="176" height="52" align="left" alt="Logo">
-
-<h1 align="right"><a href="https://script-ninja.github.io/russian-travel/index.html" target="_blank">Проект: Гид туриста</a></h1>
+<h1 align="right"><a href="https://script-ninja.github.io/russian-travel/index.html" target="_blank"><img src="./images/header-logo_dark.svg" width="176" height="52" align="left" alt="Logo">Проект: Гид туриста</a></h1>
 
 ### Обзор
 Второй учебный проект курса веб-разработки от Яндекс Практикума.
