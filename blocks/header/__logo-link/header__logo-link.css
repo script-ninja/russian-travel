@@ -1,7 +1,6 @@
 .header__logo-link {
   display: block;
-  max-width: 176px;
-  max-height: 52px;
+  max-width: 190px;
   transition: opacity 0.2s ease;
 }
 
